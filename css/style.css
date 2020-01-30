@@ -9,7 +9,7 @@
 .index-body {
     display: grid;
     background-color: #403B3B;
-    color: #F2F2F2;
+    /* color: #F2F2F2; */
     margin: 0;
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(auto, auto);
@@ -40,9 +40,13 @@
     color: #A68F8A;
 }
 
-.nav-button {
+/* .nav-button {
     padding: 0 2em;
     font-size: 1.5rem;
+} */
+
+.nav-button:hover {
+    color: #F2F2F2;
 }
 
 #hero-image {
@@ -64,12 +68,13 @@
     padding-right: 400px;
 }
 
-.intro-title {
+.section-title {
     display: grid;
     height: 100px;
     align-items: center;
     margin: 0;
     font-size: 2rem;
+    color: #F2F2F2;
 }
 
 .intro-desc {
@@ -93,7 +98,43 @@
     grid-area: recent;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    justify-items: center;
+}
+
+.posts {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(auto, auto);
+    background-color: #BFBABA;
+
+}
+
+.card-img {
+    height: 250px;
+    width: 456px;
+}
+
+.card-title {
+    color: #403B3B;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    text-align: center;
+    height: 2rem;
+    margin-bottom: 0;
+}
+
+.card-text {
+    text-align: center;
+    color: #735E5A;
+}
+
+.read-more {
+    text-align: right;
+    
+    margin: 0 1rem 1rem 0;
+}
+
+.read-more:hover {
+    color: #F2F2F2;
 }
 
 #sub {
