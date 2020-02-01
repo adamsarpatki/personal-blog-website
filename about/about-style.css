@@ -1,0 +1,76 @@
+.about-body {
+    display: grid;
+    background-color: #403B3B;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #F2F2F2;
+    margin: 0;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(auto, auto);
+    grid-gap: 10px;
+    grid-template-areas:
+    "hd"
+    "nav"
+    "section-title"
+    "content"
+    "hero-image"
+    "content"
+    "ft";
+}
+
+.site-header {
+    display: grid;
+    grid-area: hd;
+    justify-items: center;
+    align-items: center;
+    height: 50px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    grid-area: nav;
+    color: #A68F8A;
+}
+
+.nav-button {
+    padding: 0 2em;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+/* .nav-button:hover {
+    color: #F2F2F2;
+} */
+
+#about-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: intro;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.section-title {
+    display: grid;
+    grid-area: section-title;
+    height: 100px;
+    align-items: center;
+    margin: 0;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 0.3rem;
+    font-size: 2rem;
+    color: #F2F2F2;
+}
+
+.about-content {
+    grid-area: content;
+    font-size: 1.2rem;
+    color: #BFBABA;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    text-align: justify;
+}
