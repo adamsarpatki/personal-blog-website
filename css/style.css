@@ -193,13 +193,36 @@
     padding-left: 400px;
     padding-right: 400px;
     justify-items: center;
+    margin-bottom: 3rem;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas:
     "social legal"
 }
 
 .social {
+    display: flex;
     grid-area: social;
+    flex-direction: column;
 }
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-text {
+    text-align: center;
+}
+
+.icon {
+    width: 5rem;
+    height: 5rem;
+}
+
+.icon img {
+    height: 100%;
+    width: 100%;
+ }
 
 .legal {
     grid-area: legal;
