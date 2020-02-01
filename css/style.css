@@ -9,8 +9,8 @@
 .body-general {
     display: grid;
     background-color: #403B3B;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
     font-size: 16px;
     color: #F2F2F2;
     margin: 0;
@@ -81,8 +81,6 @@
     z-index: 2;
 }
 
-
-
 #intro {
     display: flex;
     flex-direction: column;
@@ -110,7 +108,6 @@
     color: #BFBABA;
     padding-left: 10rem;
     padding-right: 10rem;
-    padding-
     text-align: justify;
 }
 
@@ -226,4 +223,6 @@
 
 .legal {
     grid-area: legal;
+    align-self: center;
+    margin: 0;
 }
