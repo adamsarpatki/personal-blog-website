@@ -9,6 +9,8 @@
 .index-body {
     display: grid;
     background-color: #403B3B;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
     font-size: 16px;
     color: #F2F2F2;
     margin: 0;
@@ -66,15 +68,15 @@
     grid-row-end: 7;
     z-index: 1;
 }
-.hero-gradient {
+/* .hero-gradient {
     position: absolute;
     background-image: linear-gradient(yellow, red);
-    /* align-self: end; */
+    align-self: end;
     align-self: end;
     height: 30%;
     width: 100%;
     z-index: 2;
-}
+} */
 
 
 
@@ -92,6 +94,8 @@
     height: 100px;
     align-items: center;
     margin: 0;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 0.3rem;
     font-size: 2rem;
     color: #F2F2F2;
 }
@@ -99,6 +103,9 @@
 .intro-desc {
     font-size: 1.2rem;
     color: #BFBABA;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    text-align: justify;
 }
 
 #recent {
@@ -134,11 +141,14 @@
 
 .card-title {
     color: #403B3B;
-    font-size: 1.3rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: 'PT Serif', serif;
     text-transform: uppercase;
     text-align: center;
     height: 2rem;
     margin-bottom: 0;
+    margin-top: 2%;
 }
 
 .card-text {
@@ -152,6 +162,7 @@
     flex: 0 0 auto;
     /* text-align: right; */
     width: auto;
+    font-style: italic;
     color: #403B3B;
     margin: 0 1rem 1rem 0;
 }
