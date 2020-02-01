@@ -1,21 +1,16 @@
-.about-body {
+@import "../css/style.css";
+
+.about-layout {
     display: grid;
-    background-color: #403B3B;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: #F2F2F2;
-    margin: 0;
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(auto, auto);
     grid-gap: 10px;
     grid-template-areas:
     "hd"
     "nav"
-    "section-title"
-    "content"
-    "hero-image"
-    "content"
+    "about"
+    "hero-box"
+    "text"
     "ft";
 }
 
@@ -45,13 +40,17 @@
     color: #F2F2F2;
 } */
 
-#about-box {
+.about-box {
     display: flex;
     flex-direction: column;
     align-items: center;
-    grid-area: intro;
-    padding-left: 400px;
-    padding-right: 400px;
+    grid-area: about;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.about-text {
+    grid-area: text;
 }
 
 .section-title {
@@ -73,4 +72,5 @@
     padding-left: 10rem;
     padding-right: 10rem;
     text-align: justify;
+    justify-self: center;
 }

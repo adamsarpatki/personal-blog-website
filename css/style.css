@@ -6,7 +6,7 @@
 #F2F2F2 */
 
 
-.index-body {
+.body-general {
     display: grid;
     background-color: #403B3B;
     font-family: 'Raleway', sans-serif;
@@ -17,10 +17,12 @@
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(auto, auto);
     grid-gap: 10px;
+}
+.index-layout {    
     grid-template-areas:
     "hd"
     "nav"
-    "hero-image"
+    "hero-box"
     "intro"
     "recent"
     "sub"
@@ -53,16 +55,16 @@
     color: #F2F2F2;
 } */
 
-.hero-image {
+.hero-box {
     display: grid;
     position: relative;
-    grid-area: hero-image;
+    grid-area: hero-box;
     justify-items: center;
     grid-template-rows: repeat(6, 1fr);
     grid-template-columns: 1fr;
 }
 
-.hero-content {
+.hero-img {
     width: 100%;
     height: 100%;
     grid-row-start: 1;
