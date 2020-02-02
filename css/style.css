@@ -18,6 +18,7 @@
     grid-auto-rows: minmax(auto, auto);
     grid-gap: 10px;
 }
+
 .index-layout {    
     grid-template-areas:
     "hd"
@@ -34,7 +35,11 @@
     grid-area: hd;
     justify-items: center;
     align-items: center;
-    height: 50px;
+}
+
+.logo {
+    margin: 1rem auto;
+    width: 15%;
 }
 
 .navbar {
