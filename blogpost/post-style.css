@@ -1,6 +1,6 @@
 @import "../css/style.css";
 
-.about-layout {
+.post-layout {
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(auto, auto);
@@ -8,9 +8,10 @@
     grid-template-areas:
     "hd"
     "nav"
-    "about"
     "hero-box"
-    "text"
+    "post-box"
+    "inline-img"
+    "post-text"
     "ft";
 }
 
@@ -40,37 +41,34 @@
     color: #F2F2F2;
 } */
 
-.about-box {
+.post-box {
     display: flex;
     flex-direction: column;
     align-items: center;
-    grid-area: about;
+    grid-area: post-box;
     padding-left: 20rem;
     padding-right: 20rem;
 }
 
-.about-text {
-    grid-area: text;
+.post-text {
+    grid-area: post-text;
 }
 
-/* .section-title {
-    display: grid;
-    grid-area: section-title;
-    height: 100px;
-    align-items: center;
-    margin: 0;
-    font-family: 'PT Serif', serif;
-    letter-spacing: 0.3rem;
-    font-size: 1.5rem;
-    color: #F2F2F2;
-} */
 
-.about-content {
-    grid-area: content;
+.post-content {
     font-size: 1.2rem;
     color: #BFBABA;
     padding-left: 10rem;
     padding-right: 10rem;
     text-align: justify;
     justify-self: center;
+}
+
+.inline-img {
+    display: grid;
+    position: relative;
+    grid-area: inline-img;
+    justify-items: center;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: 1fr;
 }
