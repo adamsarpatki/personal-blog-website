@@ -5,13 +5,19 @@
 #BFBABA
 #F2F2F2 */
 
+html {
+    font-size: 16px;
+}
+
+h4 {
+    margin: 0;
+}
 
 .body-general {
     display: grid;
     background-color: #403B3B;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
-    font-size: 16px;
     color: #F2F2F2;
     margin: 0;
     grid-template-columns: 1fr;
@@ -50,7 +56,7 @@
 }
 
 .nav-button {
-    padding: 0 2em;
+    padding: 0 2rem;
     font-size: 1.5rem;
     text-transform: uppercase;
 }
@@ -104,14 +110,14 @@
     letter-spacing: 0.3rem;
     font-size: 1.5rem;
     color: #F2F2F2;
+    text-align: center;
 }
 
 .intro-desc {
     font-size: 1.2rem;
     grid-area: title;
     color: #BFBABA;
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding: 0 30rem;
     text-align: justify;
 }
 
@@ -120,8 +126,6 @@
     flex-direction: column;
     align-items: center;
     grid-area: recent;
-    /* padding-left: 400px;
-    padding-right: 400px; */
 }
 
 .nested-cards {
@@ -139,12 +143,11 @@
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(auto, auto);
     background-color: #BFBABA;
-
 }
 
 .card-img {
-    height: 100%;
     width: 100%;
+    padding-bottom: 1rem;
 }
 
 .card-title {
@@ -154,8 +157,6 @@
     font-family: 'PT Serif', serif;
     text-transform: uppercase;
     text-align: center;
-    height: 2rem;
-    margin-bottom: 10%;
 }
 
 .card-text {
@@ -233,11 +234,25 @@
     margin: 0;
 }
 
-@media(min-width: 375px) {
+@media (max-width: 375px) {
+
+
     .logo {
         width: 70%;
     }
     
+    .navbar {
+        flex-wrap: wrap;
+    }
+
+    .nav-button {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        font-size: 2rem;
+    }
+
     #intro {
         padding-left: 0;
         padding-right: 0;
@@ -248,21 +263,40 @@
     }
 
     .intro-desc {
-        padding-left: 2rem;
-        padding-right: 2rem;
-        font-size: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        font-size: 2.4rem;
     }
 
     .nested-cards {
         max-width: 100%;
-        margin: 0 2rem 0 2rem;
+        margin: 0 4rem;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(9, 1fr);
     }
 
+    .card-img {
+        height: 100%;
+        padding: 0;
+    }
+
+    .card-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;    
+        font-size: 3rem;
+        margin: 0;
+        padding: 1rem 0.75rem;
+        height: auto;
+    }
+
+    .card-text {
+        display: none;
+    }
+
     .footer {
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         grid-template-areas:
@@ -271,12 +305,12 @@
     }
 
     .social-text {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .icon {
-        width: 15rem;
-        height: 15rem;
+        width: 12rem;
+        height: 12rem;
         filter: unset;
     }
 
