@@ -92,7 +92,7 @@
     }
 }
 
-@media (min-width: 376px) and (max-width: 900px) {
+@media (min-width: 376px) and (max-width: 1024px) {
     .logo {
         width: 50%;
     }
@@ -123,5 +123,11 @@
         width: 6rem;
         height: 6rem;
         filter: unset;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .about-box {
+        padding: 0;
     }
 }
