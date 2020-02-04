@@ -91,3 +91,47 @@
         font-size: 2.4rem;
     }
 }
+
+@media (min-width: 376px) and (max-width: 900px) {
+    .logo {
+        width: 50%;
+    }
+    
+    .nav-button {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+
+    .about-box {
+        padding: 0;
+    }
+
+    .about-content {
+        padding-left: 4rem;
+        padding-right: 4rem;
+        font-size: 1.2rem;
+    }
+
+    .footer {
+        padding-left: 4rem;
+        padding-right: 4rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+        "social"
+        "legal";
+    }
+
+    .social-text {
+        font-size: 1.8rem;
+    }
+
+    .icon {
+        width: 6rem;
+        height: 6rem;
+        filter: unset;
+    }
+}
