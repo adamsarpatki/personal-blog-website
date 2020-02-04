@@ -41,10 +41,6 @@
     text-transform: uppercase;
 }
 
-/* .nav-button:hover {
-    color: #F2F2F2;
-} */
-
 .post-box {
     display: flex;
     flex-direction: column;

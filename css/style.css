@@ -61,9 +61,14 @@ h4 {
     text-transform: uppercase;
 }
 
-/* .nav-button:hover {
+.nav-link:hover {
     color: #F2F2F2;
-} */
+}
+
+.nav-link {
+    color: #A68F8A;
+    text-decoration: none;
+}
 
 .hero-box {
     display: grid;
@@ -167,13 +172,12 @@ h4 {
 }
 
 .read-more {
-    flex: 0 0 auto;
+    /* flex: 0 0 auto; */
     /* text-align: right; */
-    width: auto;
-    font-style: italic;
+    /* width: auto; */
     text-decoration: none;
     color: #403B3B;
-    margin: 0 1rem 1rem 0;
+    /* margin: 0 1rem 1rem 0; */
 }
 
 .read-more-wrap {

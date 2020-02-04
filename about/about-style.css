@@ -40,10 +40,6 @@
     text-transform: uppercase;
 }
 
-/* .nav-button:hover {
-    color: #F2F2F2;
-} */
-
 .about-box {
     display: flex;
     flex-direction: column;
@@ -56,18 +52,6 @@
 .about-text {
     grid-area: text;
 }
-
-/* .section-title {
-    display: grid;
-    grid-area: section-title;
-    height: 100px;
-    align-items: center;
-    margin: 0;
-    font-family: 'PT Serif', serif;
-    letter-spacing: 0.3rem;
-    font-size: 1.5rem;
-    color: #F2F2F2;
-} */
 
 .about-content {
     grid-area: content;
