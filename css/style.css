@@ -322,7 +322,7 @@ h4 {
     }
 }
 
-@media (min-width: 376px) and (max-width: 900px) {
+@media (min-width: 376px) and (max-width: 1024px) {
     .logo {
         width: 50%;
     }
@@ -397,4 +397,48 @@ h4 {
         filter: unset;
     }
 
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .nested-cards {
+        max-width: 100%;
+        margin: 0 4rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, 1fr);
+    }
+
+    .intro-desc {
+        padding: 0 4rem;
+    }
+
+    .footer {
+        padding-left: 4rem;
+        padding-right: 4rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+        "social legal";
+    }
+
+    .social {
+        grid-area: social;
+    }
+
+    .social-text {
+        font-size: 1.8rem;
+    }
+
+    .icon {
+        width: 6rem;
+        height: 6rem;
+        filter: unset;
+    }
+
+    .legal {
+        grid-area: legal;
+    }
+
+    .card-img {
+        height: unset;
+    }
 }

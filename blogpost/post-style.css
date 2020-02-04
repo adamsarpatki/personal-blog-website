@@ -124,16 +124,6 @@
         font-size: 1.2rem;
     }
 
-    .footer {
-        padding-left: 4rem;
-        padding-right: 4rem;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas:
-        "social"
-        "legal";
-    }
-
     .social-text {
         font-size: 1.8rem;
     }
