@@ -5,7 +5,12 @@
 #BFBABA
 #F2F2F2 */
 
-html {
+@import "frame.css";
+@import "hero.css";
+@import "texts.css";
+@import "footer.css";
+
+/* html {
     font-size: 16px;
 }
 
@@ -23,7 +28,7 @@ h4 {
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(auto, auto);
     grid-gap: 10px;
-}
+} */
 
 .index-layout {    
     grid-template-areas:
@@ -35,7 +40,7 @@ h4 {
     "ft";
 }
 
-.site-header {
+/* .site-header {
     display: grid;
     grid-area: hd;
     justify-items: center;
@@ -68,9 +73,9 @@ h4 {
 .nav-link {
     color: #A68F8A;
     text-decoration: none;
-}
+} */
 
-.hero-box {
+/* .hero-box {
     display: grid;
     position: relative;
     grid-area: hero-box;
@@ -89,12 +94,11 @@ h4 {
 .hero-gradient {
     position: absolute;
     background-image: linear-gradient(rgba(255,0,0,0), rgba(64,59,59,1));
-    /* align-self: end; */
     height: 30%;
     width: 100%;
     bottom: 0;
     z-index: 2;
-}
+} */
 
 #intro {
     display: flex;
@@ -105,10 +109,9 @@ h4 {
     padding-right: 10rem;
 }
 
-.section-title {
+/* .section-title {
     display: grid;
     grid-area: section-title;
-    /* height: 100px; */
     align-items: center;
     margin: 0;
     font-family: 'PT Serif', serif;
@@ -116,7 +119,7 @@ h4 {
     font-size: 1.5rem;
     color: #F2F2F2;
     text-align: center;
-}
+} */
 
 .intro-desc {
     font-size: 1.2rem;
@@ -171,13 +174,9 @@ h4 {
     padding-right: 2rem;
 }
 
-.read-more {
-    /* flex: 0 0 auto; */
-    /* text-align: right; */
-    /* width: auto; */
+/* .read-more {
     text-decoration: none;
     color: #403B3B;
-    /* margin: 0 1rem 1rem 0; */
 }
 
 .read-more-wrap {
@@ -187,9 +186,9 @@ h4 {
 
 .read-more:hover {
     color: #F2F2F2;
-}
+} */
 
-.footer {
+/* .footer {
     display: grid;
     grid-area: ft;
     padding-left: 20rem;
@@ -237,7 +236,7 @@ h4 {
     align-self: center;
     text-align: center;
     margin: 0;
-}
+} */
 
 @media (max-width: 375px) {
     .logo {

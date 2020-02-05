@@ -1,0 +1,49 @@
+.footer {
+    display: grid;
+    grid-area: ft;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    justify-items: center;
+    margin-bottom: 3rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "social legal"
+}
+
+.social {
+    display: flex;
+    grid-area: social;
+    flex-direction: column;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-text {
+    text-align: center;
+}
+
+.icon {
+    width: 5rem;
+    height: 5rem;
+    filter: grayscale(100%);
+}
+
+.icon:hover {
+    transition: all 2s;
+    filter: none;
+}
+
+.icon img {
+    height: 100%;
+    width: 100%;
+ }
+
+.legal {
+    grid-area: legal;
+    align-self: center;
+    text-align: center;
+    margin: 0;
+}
