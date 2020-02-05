@@ -17,7 +17,6 @@
 .hero-gradient {
     position: absolute;
     background-image: linear-gradient(rgba(255,0,0,0), rgba(64,59,59,1));
-    /* align-self: end; */
     height: 30%;
     width: 100%;
     bottom: 0;
