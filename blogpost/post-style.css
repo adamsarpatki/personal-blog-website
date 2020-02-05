@@ -41,6 +41,11 @@
     text-transform: uppercase;
 }
 
+.img-caption {
+    text-align: right;
+    color: #A68F8A;
+}
+
 .post-box {
     display: flex;
     flex-direction: column;
@@ -90,6 +95,10 @@
         font-size: 2rem;
     }
     
+    .img-caption {
+        font-size: 1.5rem;
+    }
+
     .post-box {
         padding: 0;
     }
