@@ -46,6 +46,10 @@
     color: #A68F8A;
 }
 
+figure {
+    margin: 0;
+}
+
 .post-box {
     display: flex;
     flex-direction: column;
@@ -144,7 +148,7 @@
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1680px) {
     .post-box {
         padding: 0;
     }

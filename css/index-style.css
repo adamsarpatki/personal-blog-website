@@ -398,7 +398,7 @@ h4 {
 
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1680px) {
     .nested-cards {
         max-width: 100%;
         margin: 0 4rem;
@@ -438,5 +438,11 @@ h4 {
 
     .card-img {
         height: unset;
+    }
+}
+
+@media (min-width: 1680px) and (max-width: 1920px) {
+    .intro-desc {
+        padding: 0 20rem;
     }
 }
