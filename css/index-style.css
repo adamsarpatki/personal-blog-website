@@ -43,7 +43,7 @@
     max-width: 65%;
     grid-area: recent;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     padding-top: 2rem;
 }
 
@@ -133,6 +133,10 @@
         display: none;
     }
 
+    .link {
+        display: none;
+    }
+
     .footer {
         padding-left: 4rem;
         padding-right: 4rem;
@@ -211,6 +215,10 @@
     .card-text {
         font-size: 1.1rem;
         padding: 0 1rem;
+    }
+
+    .link {
+        display: none;
     }
 
     .footer {
