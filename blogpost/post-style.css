@@ -12,6 +12,7 @@
     "post-box"
     "inline-img"
     "post-text"
+    "author-info"
     "ft";
 }
 
@@ -82,6 +83,45 @@ figure {
     grid-template-columns: 1fr;
 }
 
+.author-info {
+    display: grid;
+    padding: 0 40rem 0 30rem;
+    align-items: center;
+    color: #A68F8A;
+    grid-template-rows: 23% 10% 1fr;
+    grid-template-columns: 15% 10% 1fr;
+    grid-template-areas:
+    "author-avatar author-name author-name"
+    "author-avatar author-title author-company"
+    "author-avatar author-bio author-bio";
+}
+
+.author-avatar {
+    grid-area: author-avatar;
+}
+
+.author-avatar img {
+    border-radius: 50%;
+    width: 90%;
+}
+
+.author-name {
+    grid-area: author-name;
+}
+
+.author-title {
+    grid-area: author-title;
+}
+
+.author-company {
+    grid-area: author-company;
+}
+
+.author-bio {
+    grid-area: author-bio;
+    text-align: justify;
+}
+
 @media (max-width: 375px) {
     .logo {
         width: 70%;
@@ -113,6 +153,10 @@ figure {
         font-size: 2.4rem;
     }
 }
+
+    .author-info {
+        padding: 0 4rem;
+    }
 
 @media (min-width: 376px) and (max-width: 1024px) {
     .logo {
