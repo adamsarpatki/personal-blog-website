@@ -3,7 +3,7 @@
         width: 70%;
     }
     
-    .navbar {
+    nav {
         flex-wrap: wrap;
     }
 
@@ -60,7 +60,7 @@
         display: none;
     }
 
-    .footer {
+    footer {
         padding-left: 4rem;
         padding-right: 4rem;
         grid-template-columns: 1fr;
@@ -144,7 +144,7 @@
         display: none;
     }
 
-    .footer {
+    footer {
         padding-left: 4rem;
         padding-right: 4rem;
         grid-template-columns: 1fr;
@@ -177,7 +177,7 @@
         padding: 0 4rem;
     }
 
-    .footer {
+    footer {
         padding-left: 4rem;
         padding-right: 4rem;
         grid-template-columns: 1fr 1fr;
