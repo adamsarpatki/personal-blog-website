@@ -152,11 +152,11 @@ figure {
         padding-right: 4rem;
         font-size: 2.4rem;
     }
-}
 
     .author-info {
         padding: 0 4rem;
     }
+}
 
 @media (min-width: 376px) and (max-width: 1024px) {
     .logo {
