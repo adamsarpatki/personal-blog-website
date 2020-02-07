@@ -85,10 +85,11 @@ figure {
 
 .author-info {
     display: grid;
-    padding: 0 40rem 0 30rem;
+    padding: 0 30rem 0 30rem;
+    font-size: 1.2rem;
     align-items: center;
     color: #A68F8A;
-    grid-template-rows: 23% 10% 1fr;
+    grid-template-rows: 23% 23% 1fr;
     grid-template-columns: 15% 10% 1fr;
     grid-template-areas:
     "author-avatar author-name author-name"
